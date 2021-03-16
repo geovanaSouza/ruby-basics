@@ -2,6 +2,7 @@
 my_var = 5
 puts "O valor da variável my_var é #{my_var}"
 
+# variable sum contains the sum of variable x and y
 x = 5
 y = 15
 sum = x + y
