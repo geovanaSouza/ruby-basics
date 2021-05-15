@@ -1,8 +1,9 @@
 # Array Definition
 months = ["January", "February", "April", "May", "June", "July"]
 puts months[5]
-puts ""
-puts months
+
+# Print the latest value from array
+puts months[-1]
 
 puts ""
 
