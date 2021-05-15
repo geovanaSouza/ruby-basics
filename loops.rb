@@ -22,3 +22,10 @@ puts ""
 for count in 1...10
     puts count
 end
+
+puts ""
+
+# For loop inclusive
+for count in 1..10
+    puts count
+end
