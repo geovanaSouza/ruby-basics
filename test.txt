@@ -1,0 +1,2 @@
+This text was added using code block
+Adding content in append mode
