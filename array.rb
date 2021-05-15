@@ -1,3 +1,4 @@
+# Array Definition
 months = ["January", "February", "April", "May", "June", "July"]
 puts months[5]
 puts ""
@@ -33,6 +34,13 @@ puts months
 
 puts ""
 
+# Each iterator
+days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+# Interact wich each item, store the value in day variable and print on the screen
+days.each { |day| puts day }
+
+puts ""
+
 # Arrays of Arrays
 my_2d_array = [[1, 2, 3], [4, 5, 6]]
 my_2d_array.each { |x| puts "#{x}\n"}
@@ -57,14 +65,7 @@ print "#{my_array.flatten} \n"
 
 puts ""
 
-# Each iterator
-days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
-# Interact wich each item, store the value in day variable and print on the screen
-days.each { |day| puts day }
-
-puts ""
-
-# Map
+# With map it`s possible to work with array's items
 my_array = [5, 9, 8, 2, 6]
 print my_array.map { |item| item * 2}
 puts ""

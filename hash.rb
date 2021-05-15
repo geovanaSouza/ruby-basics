@@ -5,7 +5,7 @@ puts Person_hash
 
 puts ""
 
-# Creating hash with values
+# Creating hash with pre-defined keys and values
 person_hash = {
     "name" => "Jonathan",
     "age" => 25
@@ -39,6 +39,12 @@ puts ""
 # Check if key exist
 puts "Has name key: #{person_hash.has_key?("name")}"
 puts "Has height key: #{person_hash.has_key?("height")}"
+
+puts "Has age key: #{person_hash.include?("age")}"
+puts "Has height key: #{person_hash.include?("height")}"
+puts "Has 25 key: #{person_hash.include?(25)}"
+puts "Has value Jonathan: #{person_hash.has_value?("Jonathan")}"
+puts "Has value Geovana #{person_hash.has_value?("Geovana")}"
 
 puts ""
 
